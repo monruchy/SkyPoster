@@ -9,6 +9,6 @@ def post_to_bluesky(username, password, text):
     client = Client()
     client.login(username, password)
     client.send_post(text)
-    print("✅ โพสต์เรียบร้อยแล้ว!")
+    print("✅ done!")
 
 post_to_bluesky(USERNAME, PASSWORD, POST_TEXT)
